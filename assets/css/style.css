@@ -93,3 +93,20 @@
     rgba(0, 0, 0, 0.8) 100%
   );
 }
+.main__text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  gap: 20px;
+  height: 100vh;
+  width: 100vw;
+}
+.main__text h1{
+  font-size: 40px;
+}
+.main__text span{
+  font-size: 20px;
+}
